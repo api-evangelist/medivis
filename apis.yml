@@ -1,8 +1,27 @@
 aid: medivis
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medivis.png
 name: Medivis
-description: 'Medivis is a company surfaced as a portfolio company of initialized-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: hardware. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Medivis is a medical technology company building AI-powered augmented reality
+  solutions for surgery and medical education. Its flagship product, SurgicalAR, is an FDA
+  510(k)-cleared platform that runs on Microsoft HoloLens 2 and transforms 2D medical imaging
+  (CT and MRI) into interactive 3D holographic visualizations for surgical planning and
+  navigation, including FDA-cleared systems for spine and cranial procedures. Medivis also
+  offers AnatomyX, an AR platform for anatomy and medical education. The company reports
+  deployment across 40+ institutions and use in 2,000+ surgeries. Medivis is a Microsoft
+  technology partner and a portfolio company of Initialized Capital. Medivis publishes no
+  public API, developer portal, or SDK; its software surface is delivered as HoloLens and
+  iOS applications for clinical and educational users.'
 url: https://raw.githubusercontent.com/api-evangelist/medivis/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Hardware
+- Healthcare
+- Augmented Reality
+- Surgical Navigation
+- Medical Imaging
+- Medical Education
+- Health Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/medivis-domain-security.yml
 - type: Website
   url: https://medivis.com/
+- type: TermsOfService
+  url: https://www.medivis.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.medivis.com/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
