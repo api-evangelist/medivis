@@ -1,0 +1,28 @@
+# Front Door AI Index — medivis — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: medivis
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: medivis.com
+  final_host: www.medivis.com
+  ownership: own
+  owner: medivis
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 2
+  host_score: 2
+  density: 0.86
+  words: 2318
+  tiers:
+    agentic: 0
+    core: 2
+    model: 0
+  ambiguous: 13
+  top_terms:
+    agent: 6
+    intelligence: 4
+    smart: 3
+    AI: 2
